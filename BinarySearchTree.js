@@ -4,7 +4,7 @@ class BinarySearchTree {
     this.value = value
     this.parent = parent
     this.left = null
-    this.rigth = null
+    this.right = null
   }
 
   insert(key, value) {
