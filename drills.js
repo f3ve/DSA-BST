@@ -68,6 +68,7 @@ function main() {
 
   function isBST(t) {
 
+
     if (t.left > t || t.right < t) {
       console.log('oops')
       return false
@@ -86,7 +87,7 @@ function main() {
     return true
   }
 
-  console.log(isBST('yeet'))
+  console.log(isBST())
 }
 
 main()
